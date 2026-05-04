@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 645afb1a997f08d4e837603fd49ab05c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adent2 Battle Fourth V3_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 21
+        height: 49
+      alignment: 9
+      pivot: {x: 0.3809524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8456ee42fafc13f4184882fc0d404bf5
+      internalID: 614306882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Fourth V3_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63079b1385d13d645a4c0324a8288981
+      internalID: 1174594949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Fourth V3_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772f5b8d06558474a843cb57cc8fe458
+      internalID: -561966355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Fourth V3_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1
+        width: 54
+        height: 49
+      alignment: 9
+      pivot: {x: 0.14814815, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336127a3d4653c64b91a58cae69e5410
+      internalID: 1597953435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Fourth V3_5
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1
+        width: 100
+        height: 49
+      alignment: 9
+      pivot: {x: 0.11, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ed8105bcaa2ee41a7341f968dde383
+      internalID: -396500462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Fourth V3_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1
+        width: 126
+        height: 49
+      alignment: 9
+      pivot: {x: 0.06349207, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27327deade2e71b4780b6a0d881cfb0a
+      internalID: 736403012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Fourth V3_9
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1
+        width: 130
+        height: 52
+      alignment: 9
+      pivot: {x: 0.06153846, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc35fa89c344fc49ba22dd8ac55b14e
+      internalID: -1824814399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Fourth V3_10
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1
+        width: 30
+        height: 49
+      alignment: 9
+      pivot: {x: 0.26666668, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12789fc54ed42cb429e11a7ffa2d9d73
+      internalID: 1162440404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a40181242f9334444884c426a04d4cac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Adent2 Battle Fourth V3_0: 614306882
+      Adent2 Battle Fourth V3_1: 1174594949
+      Adent2 Battle Fourth V3_10: 1162440404
+      Adent2 Battle Fourth V3_11: -1140309002
+      Adent2 Battle Fourth V3_2: -561966355
+      Adent2 Battle Fourth V3_3: 1597953435
+      Adent2 Battle Fourth V3_4: 1923434797
+      Adent2 Battle Fourth V3_5: -396500462
+      Adent2 Battle Fourth V3_6: 2066780524
+      Adent2 Battle Fourth V3_7: 736403012
+      Adent2 Battle Fourth V3_8: 1993454877
+      Adent2 Battle Fourth V3_9: -1824814399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

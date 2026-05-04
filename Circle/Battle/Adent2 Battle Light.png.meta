@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: 6f1aeafdecc3ca84f9383b553a8b8dc4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adent2 Battle Light_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 21
+        height: 49
+      alignment: 9
+      pivot: {x: 0.3809524, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4446667f6936c4aab2c8b11372955d
+      internalID: 635649636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f0d0f1a942dcf428c35d4878be530e
+      internalID: -66543316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cbe718ac7746e429dfe6eff746a5db
+      internalID: -1678841549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0.2820513, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e31fed7d1518aa40b344f7011f13159
+      internalID: -761918319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1ff69dc4b4d314081b4f4502ef0343
+      internalID: -703275953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ed4fe3e7ad060489427820d18eba1d
+      internalID: 1872512657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98981f730fe66964ab2bb67debd15b6b
+      internalID: -781330047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0.2820513, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c8e3cdc422ab4408a404d57106558b
+      internalID: -696928969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_8
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f69afd97347a594e9db404fda01e2fe
+      internalID: 595115180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9da114d20231e408fd6117b17700b9
+      internalID: 889564841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82094d82a2a62f40a1ac415e38923e8
+      internalID: -2089641104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_11
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0.2820513, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a239bf00c11c59948a90685da8efbb99
+      internalID: -1512307012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_12
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6910970588eba4dabfc36b47c126c4
+      internalID: 259813603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_13
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a545bbfb43a82e4bacf24a6fd0e03f6
+      internalID: 473290923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_14
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc47b88af8097e4587fc139961ebb41
+      internalID: -48718378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_15
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1
+        width: 39
+        height: 49
+      alignment: 9
+      pivot: {x: 0.2820513, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b8822b89727484d9b6a24ae6215c15
+      internalID: -2561631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_16
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22222222, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c8a1611ca4b6d4aa26a23231771ee0
+      internalID: -1831236724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adent2 Battle Light_17
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1
+        width: 30
+        height: 49
+      alignment: 9
+      pivot: {x: 0.26666668, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fead27a488d6fef45a1fada318a173b7
+      internalID: -146528509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fce5c73dcc913fe4b939cf7ad32d28ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Adent2 Battle Light_0: 635649636
+      Adent2 Battle Light_1: -66543316
+      Adent2 Battle Light_10: -2089641104
+      Adent2 Battle Light_11: -1512307012
+      Adent2 Battle Light_12: 259813603
+      Adent2 Battle Light_13: 473290923
+      Adent2 Battle Light_14: -48718378
+      Adent2 Battle Light_15: -2561631
+      Adent2 Battle Light_16: -1831236724
+      Adent2 Battle Light_17: -146528509
+      Adent2 Battle Light_2: -1678841549
+      Adent2 Battle Light_3: -761918319
+      Adent2 Battle Light_4: -703275953
+      Adent2 Battle Light_5: 1872512657
+      Adent2 Battle Light_6: -781330047
+      Adent2 Battle Light_7: -696928969
+      Adent2 Battle Light_8: 595115180
+      Adent2 Battle Light_9: 889564841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
