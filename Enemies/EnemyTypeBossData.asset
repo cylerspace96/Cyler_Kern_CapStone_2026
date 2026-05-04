@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4980f77a25e47f3478a770b2956fbabb, type: 3}
+  m_Name: EnemyTypeBossData
+  m_EditorClassIdentifier: 
+  enemyName: Super Zombie
+  sprite: {fileID: 251197221, guid: de4311bd4ec679945a6e16d34c5a36cd, type: 3}
+  maxHealth: 1100
+  attackDamage: 45
+  attackDelay: 0.5
+  returnDelay: 0.3
+  moveSpeed: 20
+  attackOffsetX: -1.5
+  attackOffsetY: 0
+  idleAnimationName: Idle
+  moveAnimationName: Move
+  attackAnimationName: Attack
+  attackSound: {fileID: 8300000, guid: e09ad1711e3aa9d429f0df21b925767f, type: 3}

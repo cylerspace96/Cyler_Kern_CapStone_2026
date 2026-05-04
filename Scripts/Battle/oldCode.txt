@@ -1,0 +1,218 @@
+// --------------------------------------------------------------------------------------------------------------------------------------------
+// OLD CODE 2/5/26 --- From PlayerAttackManager
+// --------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// [Header("References")]
+    // public Transform enemyTarget;
+    // public Transform[] players; /// Size should be 4
+
+    // // Settings for attacks
+    // [Header("Attack Settings")]
+    // public float moveSpeed = 5f;
+
+    // // Variables for combos and stuff
+    // [Header("Combo Settings")]
+    // public int startingInputs = 4;
+    // public int bonusInputs = 1;
+    // public int damageThreshold = 100;
+
+    // [Header("Bonus Round Settings")]
+    // public float bonusDamageMultiplier = 2f;
+
+    // // Variable for tracking number of player inputs
+    // int attackInputCount;
+
+    // int inputsLeft;
+    // int totalDamageThisTurn;
+    // bool isTurnActive;
+    // int attackStep;
+    // bool isBonusRound;
+
+    // // Array to check if characters are busy by character, not universal
+    // bool[] isBusy;
+
+    // void Start()
+    // {
+    //     isBusy = new bool[players.Length];
+    //     StartPlayerTurn();
+
+    //     // Debug so you can tell what the combo threshold is for damage
+    //     Debug.Log("Damage threshold is: " + damageThreshold);
+    // }
+
+    // public void AttackWithPlayer(int index)
+    // {
+    //     if (!isTurnActive)
+    //     {
+    //         return;
+    //     }
+
+    //     if (inputsLeft <= 0)
+    //     {
+    //         return;
+    //     }
+
+    //     if (index < 0 || index >= players.Length)
+    //     {
+    //         return;
+    //     }
+
+    //     if (isBusy[index])
+    //     {
+    //         return;
+    //     }
+
+    //     StartCoroutine(AttackSequence(index));
+    // }
+
+    // // Methods for combos and turn logic
+    // public void StartPlayerTurn()
+    // {
+    //     // Resetting the input count at the beginning of each round
+    //     attackInputCount = 0;
+
+    //     inputsLeft = startingInputs;
+    //     totalDamageThisTurn = 0;
+    //     isTurnActive = true;
+    //     attackStep = 0;
+
+    //     // Not bonus round to start
+    //     isBonusRound = false;
+
+
+    //     Debug.Log("Player turn started, inputs: " + inputsLeft);
+    // }
+
+    // // Bonus round only starts when all inputs are used
+    // void CheckComboPractice()
+    // {
+    //     if (inputsLeft > 0)
+    //     {
+    //         return;
+    //     }
+
+    //     if (totalDamageThisTurn >= damageThreshold)
+    //     {
+    //             isBonusRound = true;
+    //             inputsLeft += bonusInputs;
+
+    //             // Reset attack order
+    //             attackStep = 0;
+
+    //             damageThreshold += 50;
+    //             bonusInputs += 1;
+
+    //             Debug.Log("Bonus round activated"); 
+    //             Debug.Log($"New threshold: {damageThreshold}, Bonus inputs: {bonusInputs}");
+    //     }
+    //     else
+    //     {
+    //         EndPlayerTurn();
+    //     }
+    // }
+
+    // void EndPlayerTurn()
+    // {
+    //     isTurnActive = false;
+    //     Debug.Log("Player turn ended");
+    // }
+
+    // IEnumerator AttackSequence(int index)
+    // {
+    //     // Increment the input count at the beginning of the sequence
+    //     attackInputCount++;
+
+    //     isBusy[index] = true;
+    //     inputsLeft--;
+    //     attackStep++;
+
+    //     Transform player = players[index];
+    //     PlayerStats stats = player.GetComponent<PlayerStats>();
+
+    //     if (stats == null)
+    //     {
+    //         Debug.LogError("Player has no PlayerStats component");
+    //         isBusy[index] = false;
+    //         yield break;
+    //     }
+
+    //     AttackData attack;
+       
+    //     int attackIndex = attackInputCount - 1;
+
+    //     // Ultimate is last attack
+    //     bool lastAttack = attackIndex == stats.attacks.Length - 1;
+
+    //     attack = stats.attacks[attackIndex];
+    //     Debug.Log($"Player {index} used attack: {attack.attackName}");
+        
+    //     if(attack == null)
+    //     {
+    //         Debug.LogError("No attacks assigned");
+    //         isBusy[index] = false;
+    //         yield break;
+    //     }
+
+    //     // Get position before movement
+    //     Vector3 startPos = player.position;
+
+    //     Vector3 attackPos = enemyTarget.position + Vector3.left * 1.5f;
+
+    //     yield return MoveTo(player, attackPos);
+
+    //     yield return new WaitForSeconds(attack.startUp);
+
+    //     BattleUnit enemyUnit = enemyTarget.GetComponent<BattleUnit>();
+
+    //     if (enemyUnit != null)
+    //     {
+    //         int finalDamage = attack.damage;
+
+    //         if (isBonusRound)
+    //         {
+    //             finalDamage = Mathf.RoundToInt(attack.damage * bonusDamageMultiplier);
+    //         }
+
+
+    //         enemyUnit.TakeDamage(finalDamage);
+    //         totalDamageThisTurn += finalDamage;
+
+    //         // Debug to check stuff is working
+    //         Debug.Log($"{attack.attackName} | Base Damage: {attack.damage}, " + $"Round: {bonusDamageMultiplier}, Final Damage: {finalDamage}");
+    //     }
+
+    //     yield return new WaitForSeconds(attack.returnDelay);
+
+    //     // Return to the exact starting position
+    //     yield return MoveTo(player, startPos);
+
+    //     isBusy[index] = false;
+
+    //     // Checking if ultimate (last attack) was used and ending turn if so
+    //     if (lastAttack)
+    //     {
+    //         Debug.Log("Ultimate used — ending player turn");
+    //         EndPlayerTurn();
+    //     }
+    //     else
+    //     {
+    //         CheckComboPractice();
+    //     }
+    // }
+
+    // IEnumerator MoveTo(Transform unit, Vector3 target)
+    // {
+    //     while (Vector3.Distance(unit.position, target) > 0.05f)
+    //     {
+    //         unit.position = Vector3.MoveTowards(
+    //             unit.position,
+    //             target,
+    //             moveSpeed * Time.deltaTime
+    //         );
+    //         yield return null;
+    //     }
+
+    //     // Snap exactly to target to avoid drift
+    //     unit.position = target;
+    // }
